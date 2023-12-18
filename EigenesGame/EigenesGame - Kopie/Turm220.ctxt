@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Turm220
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Turm220\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=int\ Ortsetter()
+comment2.params=
+comment2.target=Turm220()
+comment2.text=\r\n\ Erschaffe\ eine\ Welt\ mit\ 15\ *\ 12\ Zellen.\r\n
+comment3.params=
+comment3.target=void\ prepare()
+comment3.text=\r\n\ Prepare\ the\ world\ for\ the\ start\ of\ the\ program.\r\n\ That\ is\:\ create\ the\ initial\ objects\ and\ add\ them\ to\ the\ world.\r\n
+numComments=4

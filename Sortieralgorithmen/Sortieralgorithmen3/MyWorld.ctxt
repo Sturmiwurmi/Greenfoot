@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=MyWorld
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ MyWorld\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=MyWorld()
+comment10.params=pvonIndex\ pnachIndex
+comment10.target=void\ tauschesauele(int,\ int)
+comment2.params=
+comment2.target=void\ selectionsortArray()
+comment3.params=
+comment3.target=void\ quicksortstart()
+comment4.params=liste
+comment4.target=void\ quicksort(List)
+comment5.params=
+comment5.target=void\ insertionSort()
+comment6.params=pListe
+comment6.target=void\ listeausgeben(List)
+comment7.params=
+comment7.target=void\ insertionSortArray()
+comment8.params=pArray
+comment8.target=void\ arrayausgeben(Saeule[])
+comment9.params=
+comment9.target=void\ bubbleSort()
+numComments=11

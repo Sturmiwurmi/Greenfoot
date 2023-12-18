@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Stein
+comment1.params=pNummer
+comment1.target=Stein(int)
+comment2.params=
+comment2.target=int\ getNummer()
+numComments=3

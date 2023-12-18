@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Monster
+comment1.params=hName\ hStaerke\ pLebenspunkte
+comment1.target=Monster(java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ Angriffswertberechnen()
+comment4.params=
+comment4.target=void\ berechneLeben()
+comment5.params=
+comment5.target=java.lang.String\ getName()
+comment6.params=
+comment6.target=int\ getAngriffswert()
+comment7.params=
+comment7.target=int\ getLebenspunkte()
+comment8.params=pSchadenswert
+comment8.target=void\ setSchadenswert(int)
+comment9.params=pWert
+comment9.target=void\ setwuerfelwert(int)
+numComments=10

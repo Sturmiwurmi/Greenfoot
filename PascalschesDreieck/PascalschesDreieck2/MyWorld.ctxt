@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=MyWorld
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ MyWorld\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=MyWorld()
+comment2.params=
+comment2.target=void\ Dreieckmalen()
+comment3.params=x\ y
+comment3.target=Feld\ getDreieckXY(int,\ int)
+comment4.params=k\ n
+comment4.target=int\ berechnerekursiv(int,\ int)
+comment5.params=k\ n
+comment5.target=int\ berechnerekursivallgemein(int,\ int)
+comment6.params=n
+comment6.target=int\ Fakultaet(int)
+comment7.params=k\ n
+comment7.target=int\ formel(int,\ int)
+comment8.params=
+comment8.target=void\ test()
+numComments=9

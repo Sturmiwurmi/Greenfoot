@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Stein
+comment1.params=pNummer
+comment1.target=Stein(int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=int\ getNummer()
+comment4.params=x\ y
+comment4.target=void\ scale(int,\ int)
+numComments=5

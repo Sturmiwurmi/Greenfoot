@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Kampfsystem
+comment1.params=_myPlanet
+comment1.target=Kampfsystem(greenfoot.World)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ KommunikationHeldMonster()
+comment4.params=
+comment4.target=void\ Gewinnerfeststellen()
+comment5.params=
+comment5.target=void\ Heldauswahl()
+comment6.params=
+comment6.target=void\ Lebenanzeigen()
+comment7.params=
+comment7.target=java.lang.String\ Gewinner()
+numComments=8

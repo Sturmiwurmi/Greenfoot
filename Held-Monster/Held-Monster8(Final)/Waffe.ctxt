@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Waffe
+comment1.params=pMaterial\ pMagie
+comment1.target=Waffe(java.lang.String,\ int)
+comment2.params=
+comment2.target=int\ Bonus()
+numComments=3

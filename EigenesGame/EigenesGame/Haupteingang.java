@@ -1,0 +1,285 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class Haupteingang here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Haupteingang extends World
+{
+
+    private static int zellenGroesse = 50;
+    /**
+     * Constructor for objects of class Haupteingang.
+     * 
+     */
+    public Haupteingang()
+    {    
+        super(20, 15, zellenGroesse);
+        setBackground("images/Schuleboden.png");
+        setPaintOrder(String.class, Rover.class, Marke.class, Gestein.class, Huegel.class);
+        Greenfoot.setSpeed(35); 
+        prepare();
+         this.addObject(new Gulli(),9,6);
+    }
+    
+    /**
+     * Prepare the world for the start of the program.
+     * That is: create the initial objects and add them to the world.
+     */
+    private void prepare()
+    {
+        Background background = new Background();
+        addObject(background,19,0);
+        Background background2 = new Background();
+        addObject(background2,18,0);
+        Background background3 = new Background();
+        addObject(background3,19,1);
+        Background background4 = new Background();
+        addObject(background4,19,2);
+        Background background5 = new Background();
+        addObject(background5,18,2);
+        Background background6 = new Background();
+        addObject(background6,18,1);
+        Background background7 = new Background();
+        addObject(background7,17,2);
+        Background background8 = new Background();
+        addObject(background8,17,1);
+        Background background9 = new Background();
+        addObject(background9,17,0);
+        Background background10 = new Background();
+        addObject(background10,19,3);
+        Background background11 = new Background();
+        addObject(background11,18,3);
+        Background background12 = new Background();
+        addObject(background12,17,3);
+        Background background13 = new Background();
+        addObject(background13,0,2);
+        Background background14 = new Background();
+        addObject(background14,0,3);
+        Background background15 = new Background();
+        addObject(background15,1,3);
+        Background background16 = new Background();
+        addObject(background16,2,3);
+        Background background17 = new Background();
+        addObject(background17,2,2);
+        Background background18 = new Background();
+        addObject(background18,2,1);
+        Background background19 = new Background();
+        addObject(background19,2,0);
+        Background background20 = new Background();
+        addObject(background20,1,2);
+        Background background21 = new Background();
+        addObject(background21,1,1);
+        Background background22 = new Background();
+        addObject(background22,1,0);
+        Background background23 = new Background();
+        addObject(background23,0,0);
+        Background background24 = new Background();
+        addObject(background24,0,1);
+        GeländerWand geländerWand = new GeländerWand();
+        addObject(geländerWand,19,7);
+        GeländerWand geländerWand2 = new GeländerWand();
+        addObject(geländerWand2,18,7);
+        GeländerWand geländerWand3 = new GeländerWand();
+        addObject(geländerWand3,17,7);
+        GeländerWand geländerWand4 = new GeländerWand();
+        addObject(geländerWand4,16,7);
+        GeländerWand geländerWand5 = new GeländerWand();
+        addObject(geländerWand5,15,7);
+        GeländerWand geländerWand6 = new GeländerWand();
+        addObject(geländerWand6,14,7);
+        GeländerWand geländerWand7 = new GeländerWand();
+        addObject(geländerWand7,13,7);
+        GeländerWand geländerWand8 = new GeländerWand();
+        addObject(geländerWand8,12,7);
+        GeländerWand geländerWand9 = new GeländerWand();
+        addObject(geländerWand9,11,7);
+        GeländerWand geländerWand10 = new GeländerWand();
+        addObject(geländerWand10,10,7);
+        GeländerWand geländerWand11 = new GeländerWand();
+        addObject(geländerWand11,9,7);
+        GeländerWand geländerWand12 = new GeländerWand();
+        addObject(geländerWand12,8,7);
+        Wand0 wand0 = new Wand0();
+        addObject(wand0,19,14);
+        Wand0 wand02 = new Wand0();
+        addObject(wand02,19,13);
+        Wand0 wand03 = new Wand0();
+        addObject(wand03,19,12);
+        Wand0 wand04 = new Wand0();
+        addObject(wand04,19,11);
+        WandU wandU = new WandU();
+        addObject(wandU,18,10);
+        WandU wandU2 = new WandU();
+        addObject(wandU2,17,10);
+        WandU wandU3 = new WandU();
+        addObject(wandU3,16,10);
+        WandU wandU4 = new WandU();
+        addObject(wandU4,15,10);
+        WandU wandU5 = new WandU();
+        addObject(wandU5,14,10);
+        Wand0 wand05 = new Wand0();
+        addObject(wand05,3,14);
+        Wand0 wand06 = new Wand0();
+        addObject(wand06,3,13);
+        Wand0 wand07 = new Wand0();
+        addObject(wand07,3,12);
+        Wand0 wand08 = new Wand0();
+        addObject(wand08,3,11);
+        WandU wandU6 = new WandU();
+        addObject(wandU6,4,10);
+        WandU wandU7 = new WandU();
+        addObject(wandU7,5,10);
+        WandU wandU8 = new WandU();
+        addObject(wandU8,6,10);
+        WandU wandU9 = new WandU();
+        addObject(wandU9,7,10);
+        WandU wandU10 = new WandU();
+        addObject(wandU10,8,10);
+        SchrägeWand schrägeWand = new SchrägeWand();
+        addObject(schrägeWand,13,11);
+        Schrägewand2 schrägewand2 = new Schrägewand2();
+        addObject(schrägewand2,9,11);
+        WandU wandU11 = new WandU();
+        addObject(wandU11,11,11);
+        Foyer foyer = new Foyer();
+        addObject(foyer,14,11);
+        Foyer foyer2 = new Foyer();
+        addObject(foyer2,15,11);
+        Foyer foyer3 = new Foyer();
+        addObject(foyer3,16,11);
+        Foyer foyer4 = new Foyer();
+        addObject(foyer4,17,11);
+        Foyer foyer5 = new Foyer();
+        addObject(foyer5,18,11);
+        Foyer foyer6 = new Foyer();
+        addObject(foyer6,18,12);
+        Foyer foyer7 = new Foyer();
+        addObject(foyer7,18,13);
+        Foyer foyer8 = new Foyer();
+        addObject(foyer8,17,12);
+        Foyer foyer9 = new Foyer();
+        addObject(foyer9,17,13);
+        Foyer foyer10 = new Foyer();
+        addObject(foyer10,16,12);
+        Foyer foyer11 = new Foyer();
+        addObject(foyer11,15,12);
+        Foyer foyer12 = new Foyer();
+        addObject(foyer12,16,13);
+        Foyer foyer13 = new Foyer();
+        addObject(foyer13,18,14);
+        Foyer foyer14 = new Foyer();
+        addObject(foyer14,17,14);
+        Foyer foyer15 = new Foyer();
+        addObject(foyer15,16,14);
+        Foyer foyer16 = new Foyer();
+        addObject(foyer16,15,14);
+        Foyer foyer17 = new Foyer();
+        addObject(foyer17,15,13);
+        Foyer foyer18 = new Foyer();
+        addObject(foyer18,14,12);
+        Foyer foyer19 = new Foyer();
+        addObject(foyer19,13,12);
+        Foyer foyer20 = new Foyer();
+        addObject(foyer20,14,13);
+        Foyer foyer21 = new Foyer();
+        addObject(foyer21,14,14);
+        Foyer foyer22 = new Foyer();
+        addObject(foyer22,13,13);
+        Foyer foyer23 = new Foyer();
+        addObject(foyer23,13,14);
+        Foyer foyer24 = new Foyer();
+        addObject(foyer24,12,12);
+        Foyer foyer25 = new Foyer();
+        addObject(foyer25,12,13);
+        Foyer foyer26 = new Foyer();
+        addObject(foyer26,12,14);
+        Foyer foyer27 = new Foyer();
+        addObject(foyer27,11,14);
+        Foyer foyer28 = new Foyer();
+        addObject(foyer28,11,13);
+        Foyer foyer29 = new Foyer();
+        addObject(foyer29,11,12);
+        Foyer foyer30 = new Foyer();
+        addObject(foyer30,10,12);
+        Foyer foyer31 = new Foyer();
+        addObject(foyer31,10,13);
+        Foyer foyer32 = new Foyer();
+        addObject(foyer32,9,12);
+        Foyer foyer33 = new Foyer();
+        addObject(foyer33,9,13);
+        Foyer foyer34 = new Foyer();
+        addObject(foyer34,10,14);
+        Foyer foyer35 = new Foyer();
+        addObject(foyer35,9,14);
+        Foyer foyer36 = new Foyer();
+        addObject(foyer36,8,11);
+        Foyer foyer37 = new Foyer();
+        addObject(foyer37,7,11);
+        Foyer foyer38 = new Foyer();
+        addObject(foyer38,6,11);
+        Foyer foyer39 = new Foyer();
+        addObject(foyer39,5,11);
+        Foyer foyer40 = new Foyer();
+        addObject(foyer40,4,11);
+        Foyer foyer41 = new Foyer();
+        addObject(foyer41,4,12);
+        Foyer foyer42 = new Foyer();
+        addObject(foyer42,4,13);
+        Foyer foyer43 = new Foyer();
+        addObject(foyer43,5,12);
+        Foyer foyer44 = new Foyer();
+        addObject(foyer44,5,13);
+        Foyer foyer45 = new Foyer();
+        addObject(foyer45,6,12);
+        Foyer foyer46 = new Foyer();
+        addObject(foyer46,7,12);
+        Foyer foyer47 = new Foyer();
+        addObject(foyer47,8,12);
+        Foyer foyer48 = new Foyer();
+        addObject(foyer48,8,13);
+        Foyer foyer49 = new Foyer();
+        addObject(foyer49,8,14);
+        Foyer foyer50 = new Foyer();
+        addObject(foyer50,7,14);
+        Foyer foyer51 = new Foyer();
+        addObject(foyer51,6,14);
+        Foyer foyer52 = new Foyer();
+        addObject(foyer52,5,14);
+        Foyer foyer53 = new Foyer();
+        addObject(foyer53,4,14);
+        Foyer foyer54 = new Foyer();
+        addObject(foyer54,7,13);
+        Foyer foyer55 = new Foyer();
+        addObject(foyer55,6,13);
+        foyer29.setLocation(11,12);
+        Wand0 wand09 = new Wand0();
+        addObject(wand09,11,12);
+        foyer28.setLocation(11,13);
+        Wand0 wand010 = new Wand0();
+        addObject(wand010,11,13);
+        foyer27.setLocation(11,14);
+        Wand0 wand011 = new Wand0();
+        addObject(wand011,11,14);
+        Dummy2 dummy2 = new Dummy2();
+        addObject(dummy2,19,6);
+        Dummy2 dummy22 = new Dummy2();
+        addObject(dummy22,19,5);
+        Dummy2 dummy23 = new Dummy2();
+        addObject(dummy23,19,4);
+        Dummy2 dummy24 = new Dummy2();
+        addObject(dummy24,19,8);
+        Dummy2 dummy25 = new Dummy2();
+        addObject(dummy25,19,9);
+        Dummy2 dummy26 = new Dummy2();
+        addObject(dummy26,19,10);
+        Dummy3 dummy3 = new Dummy3();
+        addObject(dummy3,0,4);
+        Dummy3 dummy32 = new Dummy3();
+        addObject(dummy32,0,5);
+        Dummy3 dummy33 = new Dummy3();
+        addObject(dummy33,0,6);
+    }
+}

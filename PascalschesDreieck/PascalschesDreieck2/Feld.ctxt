@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Feld
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Feld\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=pZahl
+comment1.target=Feld(int)
+comment2.params=pSchicht
+comment2.target=void\ setSchicht(int)
+comment3.params=X
+comment3.target=void\ setSchichtX(int)
+comment4.params=
+comment4.target=int\ getZahl()
+comment5.params=
+comment5.target=int\ getSchicht()
+comment6.params=
+comment6.target=void\ ausgew\u00E4hlt()
+comment7.params=
+comment7.target=void\ abgew\u00E4hlt()
+comment8.params=
+comment8.target=void\ act()
+numComments=9

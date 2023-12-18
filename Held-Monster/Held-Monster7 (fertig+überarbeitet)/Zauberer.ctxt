@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Zauberer
+comment1.params=pName\ pStaerke\ pLebenspunkte
+comment1.target=Zauberer(java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ heilen()
+numComments=4
