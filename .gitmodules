@@ -7,3 +7,6 @@
 [submodule "GfEigenesGame-"]
 	path = GfEigenesGame-
 	url = https://github.com/Sturmiwurmi/GfEigenesGame-
+[submodule "GfHeld-Monster"]
+	path = GfHeld-Monster
+	url = https://github.com/Sturmiwurmi/GfHeld-Monster

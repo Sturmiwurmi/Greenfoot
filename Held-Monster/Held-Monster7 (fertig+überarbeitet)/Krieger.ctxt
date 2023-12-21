@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=Krieger
-comment1.params=pName\ pStaerke\ pLebenspunkte
-comment1.target=Krieger(java.lang.String,\ int,\ int)
-comment2.params=
-comment2.target=void\ act()
-numComments=3
