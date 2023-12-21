@@ -10,3 +10,9 @@
 [submodule "GfHeld-Monster"]
 	path = GfHeld-Monster
 	url = https://github.com/Sturmiwurmi/GfHeld-Monster
+[submodule "Greenfoot"]
+	path = Greenfoot
+	url = https://github.com/Sturmiwurmi/Greenfoot
+[submodule "GfSudoku-"]
+	path = GfSudoku-
+	url = https://github.com/Sturmiwurmi/GfSudoku-
