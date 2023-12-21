@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=Turm
-comment1.params=
-comment1.target=void\ act()
-comment2.params=
-comment2.target=Stack\ getSteinstapel()
-comment3.params=
-comment3.target=void\ reset()
-numComments=4

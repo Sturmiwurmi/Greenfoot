@@ -16,3 +16,6 @@
 [submodule "GfSudoku-"]
 	path = GfSudoku-
 	url = https://github.com/Sturmiwurmi/GfSudoku-
+[submodule "GfTurm-von-Hanoi-"]
+	path = GfTurm-von-Hanoi-
+	url = https://github.com/Sturmiwurmi/GfTurm-von-Hanoi-
