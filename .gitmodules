@@ -1,3 +1,6 @@
 [submodule "GfPascalschesDreieck-"]
 	path = GfPascalschesDreieck-
 	url = https://github.com/Sturmiwurmi/GfPascalschesDreieck-
+[submodule "GfSortieralgorithmen-"]
+	path = GfSortieralgorithmen-
+	url = https://github.com/Sturmiwurmi/GfSortieralgorithmen-
