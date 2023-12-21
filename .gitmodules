@@ -4,3 +4,6 @@
 [submodule "GfSortieralgorithmen-"]
 	path = GfSortieralgorithmen-
 	url = https://github.com/Sturmiwurmi/GfSortieralgorithmen-
+[submodule "GfEigenesGame-"]
+	path = GfEigenesGame-
+	url = https://github.com/Sturmiwurmi/GfEigenesGame-
